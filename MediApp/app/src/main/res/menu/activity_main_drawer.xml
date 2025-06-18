@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_Catalogo"
+            android:icon="@drawable/medi_icon"
+            android:title="@string/menu_catalogo" />
+        <item
+            android:id="@+id/nav_Usuarios"
+            android:icon="@drawable/icon_usuarios"
+            android:title="@string/menu_usuarios" />
+        <item
+            android:id="@+id/nav_Proveedores"
+            android:icon="@drawable/icon_proveedor"
+            android:title="@string/menu_proveedores" />
+        <item
+            android:id="@+id/nav_Ventas"
+            android:icon="@drawable/icon_ventas"
+            android:title="@string/menu_ventas" />
+        <item
+            android:id="@+id/nav_Productos"
+            android:icon="@drawable/icon_productos"
+            android:title="@string/menu_productos" />
+        <item
+            android:id="@+id/nav_Configuracion"
+            android:icon="@drawable/ico_settings"
+            android:title="@string/menu_configuracion" />
+        <item
+            android:id="@+id/nav_Cerrar"
+            android:icon="@drawable/icon_cerrar"
+            android:title="@string/menu_cerrar" />
+    </group>
+</menu>
